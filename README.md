@@ -25,5 +25,6 @@ Custom colors:
 	 $("#White").teacup({ colors: ["#B9BC8D", "#E2640F"] });
 	 
 
-<b>Note that the values must be a total of 100</b>
+Read more at http://kufli.blogspot.com/2012/12/teacup-ui-fun-simple-to-use-jquery.html
+
 
