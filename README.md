@@ -3,6 +3,7 @@ TeacupUI
 
 jQuery based simple representation of percentage data as a layer of ingredients in a tea cup. Yes, a teacup!! Read more at http://kufli.blogspot.com/2012/12/teacup-ui-fun-simple-to-use-jquery.html
 
+Tested on: IE9, Firefox (17.0.1), Chrome (23..) & Safari (5.1.7)
 
 How to:
 
