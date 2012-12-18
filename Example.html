@@ -9,16 +9,59 @@
     <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 	<link href='teacup.css' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="teacup.js"></script>
+    <style>
+        .parentDiv
+        {
+            float:left;
+            margin-right:60px;
+            margin-bottom:45px;
+        }
+        .note
+        {
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+            color:black;
+            font-size:20px;
+            text-align:center;
+        }
+    </style>
 </head>
 <body>
-    <div id="test">
-        <a value="25" href="http://kufli.blogspot.com">Chocolate Syrup</a>
-        <a value="15" href="http://github.com/karthik20522">Whipped Cream</a>
-        <a value="60" href="#">Steamed Milk</a>
+    <div class="parentDiv">
+        <div id="Latte">
+            <a value="20" href="http://kufli.blogspot.com">Milk Foam</a>
+            <a value="50" href="http://github.com/karthik20522">Steamed Milk</a>
+            <a value="30" href="https://github.com/karthik20522/TeacupUI">Expresso</a>
+        </div>
+        <div class="note">Caffe Latte</div>
     </div>
-
+    <div class="parentDiv">
+        <div id="Americano">
+            <a value="65" href="http://kufli.blogspot.com">Water</a>
+            <a value="35" href="http://github.com/karthik20522">Expresso</a>
+        </div>
+        <div class="note">Americano</div>
+    </div>
+     <div class="parentDiv">
+         <div id="Mocha">
+            <a value="20" href="http://github.com/karthik20522">Whipped Cream</a>
+            <a value="35" href="http://kufli.blogspot.com">Steamed Milk</a>
+            <a value="15" href="https://github.com/karthik20522/TeacupUI">Chocolate Syrup</a>
+            <a value="30" href="https://github.com/karthik20522/TeacupUI">Expresso</a>
+        </div>
+        <div class="note">Caffe Mocha</div>
+    </div>
+     <div class="parentDiv">
+        <div id="White">
+            <a value="50" href="http://kufli.blogspot.com">Steamed Milk</a>
+            <a value="30" href="http://github.com/karthik20522">Expresso</a>
+        </div>
+        <div class="note">Flat White</div>
+    </div>
     <script>
-        $("#test").teacup();
+        $("#Latte").teacup();
+        $("#Americano").teacup({ colors: ["#42749F", "#E2640F"] });
+        $("#Mocha").teacup();
+        $("#White").teacup({ colors: ["#B9BC8D", "#E2640F"] });
     </script>
 </body>
 </html>
