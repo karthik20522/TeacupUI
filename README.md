@@ -13,8 +13,18 @@ How to:
 		<a value="30" href="https://github.com/karthik20522/TeacupUI">Expresso</a>
 	</div>
 	
-	 $("#Latte").teacup();
+	  $("#Latte").teacup();
 	 
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<link href='https://raw.github.com/karthik20522/TeacupUI/master/teacup.css' rel='stylesheet' type='text/css'>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+ <script src="https://raw.github.com/karthik20522/TeacupUI/master/teacup.js"></script>
+ 
+<script>
+ $("#Latte").teacup();
+</script>
 
 Custom colors:
 
