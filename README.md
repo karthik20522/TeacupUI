@@ -5,6 +5,8 @@ jQuery based simple representation of percentage data as a layer of ingredients 
 
 Tested on: IE9, Firefox (17.0.1), Chrome (23..) & Safari (5.1.7)
 
+Demo: http://karthik20522.github.io/TeacupUI/
+
 How to:
 
 	 <div id="Latte">
