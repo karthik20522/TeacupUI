@@ -1,0 +1,81 @@
+﻿div.teacup > .bottom{
+	-webkit-border-bottom-right-radius: 150px;
+	-webkit-border-bottom-left-radius: 150px;
+	-moz-border-radius-bottomright: 150px;
+	-moz-border-radius-bottomleft: 150px;
+	border-bottom-right-radius: 150px;
+	border-bottom-left-radius: 150px;
+	width:100%;
+	height:30px;
+	background-color:#2B2219;
+}
+div.teacup > .outer {
+	width: 95%;
+	background-color: white;			
+    border:5px solid #2B2219;
+	height:150px;
+	-webkit-border-bottom-right-radius: 50px;
+	-webkit-border-bottom-left-radius: 50px;
+	-moz-border-radius-bottomright: 50px;
+	-moz-border-radius-bottomleft: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	overflow: hidden;
+			
+}
+div.teacup span
+{
+	vertical-align:middle;
+	display:table-cell;
+}
+
+div.teacup {				
+	text-align: center;
+	width: 225px;
+    position:relative;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:white;
+    font-size:20px;
+}
+div.teacup > .doughnut { 
+    border: 18px solid #2B2219;
+    border-radius: 100px 100px 100px 100px;
+    height: 50px;
+    margin-right: -45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    z-index: -1;
+}
+
+div.teacup .inner
+{
+	display:table;
+	width: 100%;
+	background-color: Orange;
+}
+
+div.teacup .inner:hover
+{
+	-moz-box-shadow: inset 0 0 5px rgba(255,255,255, 0.8);
+	-webkit-box-shadow: inset 0 0 5px rgba(255,255,255, 0.8);
+	box-shadow: inset 0px 0px 5px rgba(255,255,255,0.8);
+    cursor:pointer;
+}
+
+div.teacup .lastItem
+{
+	-webkit-border-bottom-right-radius: 45px;
+	-webkit-border-bottom-left-radius: 45px;
+	-moz-border-radius-bottomright: 45px;
+	-moz-border-radius-bottomleft: 45px;
+	border-bottom-right-radius: 45px;
+	border-bottom-left-radius: 45px;
+}
+
+div.teacup a
+{
+	text-decoration:none;
+	color:white;
+}
